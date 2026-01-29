@@ -11,10 +11,13 @@ I utilized the **World Bank Population Dataset**, which provides historical popu
 * **Source:** [World Bank Open Data](https://data.worldbank.org/indicator/SP.POP.TOTL)
 
 ## 🛠️ Key Steps Involved
-1. **Data Preprocessing:** - Cleaned the dataset by removing metadata and non-country entities (e.g., "World", "Upper middle income").
+1. **Data Preprocessing:**
+   - Cleaned the dataset by removing metadata and non-country entities (e.g., "World", "Upper middle income").
    - Transposed and reshaped the data for easier time-series or cross-sectional analysis.
-2. **Handling Missing Values:** Checked for null entries to ensure visualization accuracy.
-3. **Visualization:** - Used **Matplotlib** and **Seaborn** to create a distribution plot.
+3. **Handling Missing Values:**
+   - Checked for null entries to ensure visualization accuracy.
+5. **Visualization:**
+   - Used **Matplotlib** and **Seaborn** to create a distribution plot.
    - Customized the charts for better readability (labels, titles, and color palettes).
 
 ## 🚀 Technologies Used
